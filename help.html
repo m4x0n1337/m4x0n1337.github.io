@@ -1,0 +1,66 @@
+﻿<!doctype html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <title>собери ПК грамотно!</title>
+    <link rel="shortcut icon" href="res/sys/pk.jpg" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body style="background-image: url(res/main/images/bg.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 100%;
+                background-attachment: fixed;">
+    <header id="header">
+        <div class="top_menu">
+            <ul>
+                <li><a href="main.html">Главная</a></li>
+                <li><a href="choosing.html">Подбор комплектующих</a></li>
+                <li><a href="pre.html">Подготовка</a></li>
+                <li><a href="building.html">Сборка</a></li>
+                <li id="selected"><a href="help.html"><font color="#ffffff">Помощь</font></a></li>
+            </ul>
+        </div>
+        <div class="line">
+            <hr />
+        </div>
+    </header>
+    <div class="textbox">
+        <div id="text">
+            <h2 id="help2">У вас отались вопросы?</h2>
+            <h1 id="help1">Вы можете оставить заявку на помощь</h1>
+            <div class="help">
+
+                <form action="" name="help">
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="text" placeholder="Ваше имя" name="mane" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="tel" placeholder="Телефон" name="phone" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <textarea placeholder="кратко опишите вашу проблему или вопрос" name="description"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="buttom" type="submit" value="Отправить" name="buttom" onclick="alert('данные отправлены')"/>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+    </div>
+</body>
+</html>
